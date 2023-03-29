@@ -1,0 +1,75 @@
+
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #82ca39;
+}
+header {
+  padding: 30px;
+  font-family: 'Mulish', sans-serif;
+  background-color: #0aa3ef;
+  color: coral;
+}
+
+h1 {
+  display: flex;
+  font-size: 80px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*styling for background banner*/
+.banner {
+  background-image: url(.assets/images/banner.jpg);
+  min-height: 250px;
+  align-items: flex-end;
+  padding-right: 25px;
+  padding-top: 200px;  
+}
+
+.banner-tag {
+  display: flex;
+  font-size: 35px;
+  justify-content: flex-end;
+  color: #010202;
+}
+
+article {
+  display: flex;
+  margin: 0px 0px 20px 0px
+}
+
+h2 {
+  display: flex;
+  font-family: 'Mulish', sans-serif;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
