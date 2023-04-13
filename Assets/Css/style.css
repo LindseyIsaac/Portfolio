@@ -90,6 +90,7 @@ article {
 #work {
   display: flex;
   font-size: 15px;
+  justify-content: space-between;
 }
 
 .label {
@@ -137,8 +138,8 @@ h3 {
   font-family: 'Mulish', sans-serif;
 }
 
-.extras {
-  display:flexbox;
+/*.extras {
+  display:flex;
   font-size: 40px;
 }
 
@@ -161,8 +162,6 @@ article {
   text-align: right;
   font-size: 200%;
   padding-right: 10px;
-  display: flex-box;
-  
   font-size: 40px;
   padding: 0 15px;
 }
@@ -173,7 +172,7 @@ article {
   justify-content: space-evenly;
 }
 
-@media screen and (max-width: 100px) {
+/*@media screen and (max-width: 100px) {
   header {
     font-size: 100%;
   }
