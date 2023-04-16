@@ -57,44 +57,53 @@ main {
 
 }
 
-article {
-  display: flex;
-  margin: 0px 0px 15px 0px;
-}
-
-
 #about-me {
   display: flex;
-  gap: 15rem;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
   font-size: 40px;
 }
 
 .label {
-  width: 15%;
+  width: 4%;
   text-align: right;
-  font-size: 200%;
-  padding-right: 10px;
-  display: flex;
-  gap: 15rem;
   font-size: 40px;
 }
 
-.Me {
+.label h2 {
+  background-color: rebeccapurple;
   display: flex;
+  justify-content: end;
+  width: 100%;
+  padding: 5% 10% 0% 0%;
+}
+.sauce {
+ width: 65%;
+ padding-left: 5%;
+}
+
+.Me {
+  width:20%;
 
 }
 
 
 #work {
   display: flex;
+  flex-wrap: wrap;
   font-size: 15px;
-  justify-content: space-between;
+}
+
+.bread {
+  width: 65%;
+  padding-left: 5%;
+}
+
+img {
+  width: 100%;
 }
 
 .label {
-  width: 15%;
+  width: 5%;
   text-align: right;
   font-size: 200%;
   padding-right: 10px;
@@ -109,18 +118,8 @@ h2 {
 
 }
 
-/* .bread {
-  display: flex;
-  gap: 15rem;
-  justify-content: left;
-  align-items: center;
-  font-size: 40px;
-} */
-
 .meat {
-    width: 15%;
     text-align: right;
-    font-size: 200%;
     padding-right: 10px;
     display:block;
     flex-wrap:wrap;
@@ -133,25 +132,20 @@ h2 {
   gap: 15rem;
   font-size: 40px;
 }
+
+.cheese {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
+.extras {
+  width: 45%;
+}
+
 h3 {
   display: flex;
   font-family: 'Mulish', sans-serif;
-}
-
-/*.extras {
-  display:flex;
-  font-size: 40px;
-}
-
-h3 {
-  display: flex;
-  font-family: 'Mulish', sans-serif;
-  
-}
-
-article {
-  display: flex;
-  margin: 0px 0px 15px 0px;
 }
 
 /*111 - 123*/
@@ -160,56 +154,13 @@ article {
   width: 15%;
   border-right: double 5px;
   text-align: right;
-  font-size: 200%;
-  padding-right: 10px;
   font-size: 40px;
   padding: 0 15px;
 }
 
 #contact-me {
   display: flex;
-  gap: 25rem;
-  justify-content: space-evenly;
-}
-
-/*@media screen and (max-width: 100px) {
-  header {
-    font-size: 100%;
-  }
-
-  h1 {
-    font-size: 50%;
-  }
-
-  h2 {
-    font-size: 40%;
-  }
-
-  h3 {
-    font-size: 100%;
-  }
-
-}
-
-@media screen and (max-width: 625px) {
-  body {
-    font-size: 10px;
-  }
-
-  header {
-    font-size: 100%;
-  }
-
-  h1 {
-    font-size: 100%;
-  }
-
-  h2 {
-    font-size: 100%;
-  }
-
-  h3 {
-    font-size: 100%;
-  }
-
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 40px;
 }
