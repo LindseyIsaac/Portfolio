@@ -109,13 +109,13 @@ h2 {
 
 }
 
-.bread {
+/* .bread {
   display: flex;
   gap: 15rem;
   justify-content: left;
   align-items: center;
   font-size: 40px;
-}
+} */
 
 .meat {
     width: 15%;
@@ -166,7 +166,7 @@ article {
   padding: 0 15px;
 }
 
-#contact-list {
+#contact-me {
   display: flex;
   gap: 25rem;
   justify-content: space-evenly;
