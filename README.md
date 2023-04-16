@@ -27,7 +27,9 @@ Youtube:
 Kevin Powell-https://www.youtube.com/watch?v=u044iM9xsWU
 
 ## License
+MIT License
 
+Copyright (c) 2023 Lindsey
 
 
 
